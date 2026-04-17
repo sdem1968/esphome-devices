@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'kola moy.yaml'      # Запуск ТОЛЬКО при изменении device.yaml
+      - 'device.yaml'      # Запуск ТОЛЬКО при изменении device.yaml
   workflow_dispatch:       # И ручной запуск
 
 jobs:
